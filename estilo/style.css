@@ -8,7 +8,7 @@
     --cor0: black;
     --cor1: white;
     --cor2: rgb(51, 51, 51);
-    --cor3: rgba(0, 0, 0, 0.253);
+    --cor3: rgba(0, 0, 0, 0.514);
 
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
@@ -85,7 +85,20 @@ section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: var(--cor3);
+    text-shadow: 1px 1px 0px black;
     
+}
+
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-size: cover;
+
+}
+
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-size: cover;
 }
 
 footer {
