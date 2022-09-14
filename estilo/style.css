@@ -66,6 +66,10 @@ section {
     font-size: 3.5vw;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: var(--cor1);
     color: var(--cor0);
