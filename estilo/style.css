@@ -3,6 +3,8 @@
 :root {
     --cor0: black;
     --cor1: white;
+    --cor2: rgb(51, 51, 51);
+    --cor3: rgba(0, 0, 0, 0.253);
 
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
@@ -45,7 +47,29 @@ header a:hover footer a:hover {
     text-decoration: underline;
 }
 
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
 
+section.normal {
+    background-color: var(--cor1);
+    color: var(--cor0);
+
+}
+
+section.imagem {
+    background-color: var(--cor2);
+    color: var(--cor1);
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: var(--cor3);
+    
+}
 
 footer {
     background-color: var(--cor0);
