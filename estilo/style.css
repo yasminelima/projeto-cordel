@@ -8,42 +8,48 @@
 }
 
 * {
-
+    margin: 0px;
+    padding: 0px;
 }
 
-body {
+html, body {
+
+    min-height: 100vh;
+    background-color: darkgray;
     
-}
-
-body a {
-    text-decoration: none;
-    color: var(--cor1);
-    font-weight: bold;
 }
 
 header {
     background-color: var(--cor0);
-    
     color: var(--cor1);
-    font-family: var(--fonte-padrao);
     text-align: center;
-       
 }
 
-header h1 {
-    font-size: 50px;
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
-main {
+header > p {
+    padding-bottom: 50px;
 
 }
+
+header a, footer a {
+    color: var(--cor1);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+header a:hover footer a:hover {
+    text-decoration: underline;
+}
+
+
 
 footer {
     background-color: var(--cor0);
-    
-    color: var(--cor1);
-    font-family: var(--fonte-padrao);
     text-align: center;
+    color: var(--cor1);
     padding: 10px;
-
 }
