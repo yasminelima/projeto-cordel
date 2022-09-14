@@ -1,0 +1,49 @@
+@charset UTF-8;
+
+:root {
+    --cor0: black;
+    --cor1: white;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+* {
+
+}
+
+body {
+    
+}
+
+body a {
+    text-decoration: none;
+    color: var(--cor1);
+    font-weight: bold;
+}
+
+header {
+    background-color: var(--cor0);
+    
+    color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    text-align: center;
+       
+}
+
+header h1 {
+    font-size: 50px;
+}
+
+main {
+
+}
+
+footer {
+    background-color: var(--cor0);
+    
+    color: var(--cor1);
+    font-family: var(--fonte-padrao);
+    text-align: center;
+    padding: 10px;
+
+}
