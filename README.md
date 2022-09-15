@@ -11,6 +11,6 @@
     <tr>
         <td>
         <h3>HTML5 e CSS3</h3>
-        <p>🚀  Estudonauta <br><br> ⏰ Carga Horária: 40h<br><br> 📜 Certificado: <a href="" target="_blank"></a></p>
+        <p>🚀  Estudonauta <br><br> ⏰ Carga Horária: 40h<br><br> 📜 Certificado: <a href="https://www.estudonauta.com/validacao-de-certificado/?codigo=1BED-E9AC-7" target="_blank">1BED-E9AC-7</a></p>
         </td>
     </tr>
